@@ -1,0 +1,31 @@
+{
+  "cwd": "C:\\Users\\aravi\\sample",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "sample game",
+  "pkg": "io.framework7.myapp",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": false,
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#000000",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}

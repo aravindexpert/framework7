@@ -1,0 +1,31 @@
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+
+/* Your app custom styles here */
+/* Adjust the styles for the card content as needed */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-item {
+  flex: 0 0 calc(25% - 10px);
+  margin-bottom: 20px;
+}
+
+/* Custom media query for tablets and mobile */
+@media (max-width: 991px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .card-item {
+    flex: 0 0 100%;
+  }
+}
+
+
