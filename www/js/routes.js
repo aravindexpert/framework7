@@ -12,7 +12,18 @@ var routes = [
     path: '/form/',
     url: './pages/form.html',
   },
-
+  {
+    path: '/schedule/',
+    url: './pages/schedule.html',
+  },
+  {
+    path: '/rules/',
+    url: './pages/rules.html',
+  },
+  {
+    path: '/simple/',
+    url: './pages/simple.html',
+  },
 
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
@@ -48,6 +59,8 @@ var routes = [
             },
           ]
         };
+
+
         // Hide Preloader
         app.preloader.hide();
 
